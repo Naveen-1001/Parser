@@ -1,6 +1,7 @@
-### Parser using Bison for a specific CFG###
+# Parser using Bison for a specific CFG
 
 **Context-Free Grammar**
+
 stmts -> stmts stmt | epsilon
 stmt -> ;
 
@@ -15,6 +16,7 @@ stmt -> ;
   |  { stmts }
 
 **Working**
+
 * Prints all the syntax errors present in the program.
 * Prints OK if there are no compilation errors.
 
